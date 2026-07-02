@@ -20,7 +20,7 @@ class karakter {
     }
 
     get hidup(): boolean {
-        return this.hp > 0;
+        return this.hp > 0; 
     }
 
     serang(lawan: karakter): void {
